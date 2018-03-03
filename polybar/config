@@ -59,7 +59,7 @@ font-0 = Ubuntu Nerd Font:size=11;2
 ;font-2 = MaterialIcons:size=12;2
 ;font-3 = Fira Sans:size=10:weight=thin;2
 
-modules-left = menu workspaces
+modules-left = menu workspaces next musicinfo on mpd
 modules-center = weather xtitle filesystem temp cpu memory trash
 modules-right = data battery
 
@@ -175,13 +175,34 @@ label-empty-foreground = ${colors.foreground}
 label-empty-background = ${colors.b-alt}
 
 
-
-
-
-
 ; Extra modules
 
+[module/musicinfo]
+type = custom/script
+interval = 5
+label-foreground = #FF359A
+label-maxlen = 20 label = %{A1:skippy-xd --toggle-window-picker:}
+format = <label>
+format-prefix = " "
+format-prefix-foreground = #FF359A
+;format-padding = 25
+exec = ~/.config/polybar/scripts/music.sh
+click-left = mocp -G
 
+[module/on]
+type = custom/text
+content = ""
+content-foreground = #FF359A
+;content-padding-right = 20
+content-padding = 10
+click-left = mocp -r
+
+[module/next]
+type = custom/text
+content = ""
+content-foreground = #FF359A
+content-padding = 10
+click-left = mocp -f
 
 [module/battery]
 type = internal/battery

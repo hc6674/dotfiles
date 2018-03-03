@@ -41,8 +41,8 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+d exec --no-startup-id dmenu_recency
 # start drofi dmenu
 bindsym $mod+Tab exec --no-startup-id rofi -show window
-bindsym $mod+Shift+d exec --no-startup-id rofi -show run
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+Shift+d exec --no-startup-id rofi -show run -opacity 90
+bindsym $mod+d exec --no-startup-id rofi -show drun -opacity 90
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
 
@@ -295,7 +295,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id xautolock -time 30 -locker blurlock
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id fcitx
-exec --no-startup-id set -B off
+exec --no-startup-id mocp
 # Colors set from ~/.Xresources
 set_from_resource	$background	background
 set_from_resource	$foreground	foreground
