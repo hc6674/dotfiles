@@ -1,0 +1,38 @@
+sw_volume: 98
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 9
+time: 3.993000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Amy Chanrich - IF You & Faded Remix.mp3
+1:Jam - 差三岁.mp3
+2:Jam - 我也不知为何流下了眼泪.mp3
+3:Jam - 拾墙.mp3
+4:Jam - 梦里梦外.mp3
+5:Joel Hanson - Traveling Light.mp3
+6:Jon Young - 2 Soon.mp3
+7:Lemon - 隔壁老王.mp3
+8:Lola - Qaytmaydi.mp3
+9:Lovestoned - Bye Bye Bye.mp3
+10:Mac Mase Tatiana Manaois - I Know You Like It .mp3
+11:Maksim - Небо-самолеты.mp3
+12:Morning Call 轻晨电乐团 - 我们背对着青春.mp3
+13:my little airport - 给亲戚看见我一个人食吉野家.mp3
+14:Niykee Heaton - Skin Tight.mp3
+15:Richard Marx - Right Here Waiting.mp3
+16:Rihanna - Cry.mp3
+17:Tatiana Manaois - Go Crazy.mp3
+18:周子琰 - 小幸福.mp3
+19:岑日珈 - 真身.mp3
+20:汤旭 - 岛歌.mp3
+21:花粥 - 二十岁的某一天.mp3
+22:莫倪moni - 宝贝 我不再是穿着花裙的小傻X.mp3
+playlist_end
