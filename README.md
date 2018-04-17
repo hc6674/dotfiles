@@ -6,4 +6,4 @@
 ## arch
 ![](https://i.imgur.com/mrcj46i.png)
 
-<iframe src="//player.bilibili.com/player.html?aid=22147101&cid=36627644&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+视频地址 ：https://www.bilibili.com/video/av22147101
