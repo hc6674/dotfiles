@@ -48,10 +48,10 @@ offset-x = 0%
 offset-y = 0%
 
 
-background = #00000000
+background = #00000020
 foreground = ${colors.foreground}
 
-line-size = 4 
+line-size = 4
 ;line-color = #f00
 
 
@@ -97,30 +97,30 @@ label-open-foreground = ${colors.foreground}
 label-open-background = ${colors.background}
 label-close = ""
 label-close-foreground = ${colors.background}
-label-separator = " | "
+label-separator = " . "
 label-separator-foreground = ${colors.foreground}
 # Top level
 menu-0-0 = "  "
 menu-0-0-exec = menu-open-1
-menu-0-1 = "    |"
+menu-0-1 = "    ."
 menu-0-1-exec = menu-open-2
 # 1
 menu-1-0 = "  "
-menu-1-0-exec = exo-open --launch google-chrome-stable
+menu-1-0-exec = chromium &
 menu-1-1 = "  "
 menu-1-1-exec = i3-scrot -s
-menu-1-2 = "    |"
-menu-1-2-exec = exo-open --launch FileManager
+menu-1-2 = "    ."
+menu-1-2-exec = nautilus &
 # 3
 menu-2-0 = "  "
 menu-2-0-exec = menu-open-0
 menu-2-1 = "   "
-menu-2-1-exec = blurlock
+menu-2-1-exec = ~/.config/i3/lock.sh
 menu-2-2 = "   "
 menu-2-2-exec = i3exit logout
 menu-2-3 = "   "
 menu-2-3-exec = systemctl reboot
-menu-2-4 = "      |"
+menu-2-4 = "      ."
 menu-2-4-exec = systemctl poweroff
 
 [module/xbacklight]
@@ -346,25 +346,29 @@ ramp-foreground = ${colors.foreground-alt}
 [module/mpd]
 type = internal/mpd
 interval = 1
-format-online =  <label-song> <icon-prev>  <icon-stop>  <toggle>  <icon-next>  <icon-repeat>
+format-online =  <label-song> <icon-prev>  <icon-seekb>  <icon-stop>  <toggle>  <icon-seekf>  <icon-next>  <icon-repeat>  <icon-random>
 
 label-offline = mpd is offline
 
 label-song =  %artist% - %title%
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-icon-repeat = 
-icon-repeatone = 
+; Awesome Font >                    
+icon-play = 
+icon-pause = 
+icon-stop =  
+icon-prev = 
+icon-next = 
+icon-seekb = 
+icon-seekf = 
 icon-random = 
+icon-repeat = 
+icon-repeatone = 
 
 toggle-on-foreground = #ff
 toggle-off-foreground = #55
 
 label-song-maxlen = 25
 label-song-ellipsis = true
+
 
 [settings]
 throttle-output = 5
