@@ -1,0 +1,134 @@
+{
+  "php.executablePath": "D:\\web\\php\\php.exe",
+  "php.validate.executablePath": "D:\\web\\php\\php.exe",
+  // editor
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lineHeight": 25,
+  "editor.matchBrackets": true,
+  "editor.occurrencesHighlight": true,
+  "editor.overviewRulerBorder": false,
+  "editor.renderIndentGuides": false,
+  "editor.renderLineHighlight": "all",
+  "editor.folding": true,
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "editor.lineNumbers": "on",
+  "editor.cursorStyle": "line",
+  // search
+  "search.smartCase": true,
+  // terminal
+  // "terminal.integrated.copyOnSelection": true,
+  // files
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.vscode": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "vendor": true,
+    "package-lock.json": true
+  },
+  // explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": false,
+  // code runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "python": "python3",
+  },
+  // prettier
+  "editor.formatOnSave": true,
+  // code runner
+  "code-runner.runInTerminal": false,
+  // sync settings
+  "sync.gist": "",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  // fonts
+  "terminal.integrated.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  // files
+  "files.associations": {
+    "*.toml": "toml"
+  },
+  // "explorer.confirmDelete": false,
+  // TODO: update to p3 and nix?
+  // window
+  "window.zoomLevel": -1,
+  // "window.title": "${activeEditorShort}",
+  "window.title": "${activeEditorMedium}",
+  "window.newWindowDimensions": "maximized",
+  // workbench
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.showIcons": false,
+  // TODO: maybe not need?
+  // typescript
+  "typescript.check.npmIsInstalled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // javascript
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  // git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  // gitlens
+  "gitlens.codeLens.enabled": false,
+  "gitlens.settings.mode": "advanced",
+  "gitlens.historyExplorer.enabled": true,
+  "gitlens.keymap": "chorded",
+  "gitlens.codeLens.scopes": [
+    "containers",
+    "document"
+  ],
+  // sync settings & extensions
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  // extensions
+  "extensions.autoUpdate": true,
+  "editor.multiCursorModifier": "alt",
+  "workbench.tree.horizontalScrolling": true,
+  "php-docblocker.extra": [
+    "@author Twor",
+    "@since $CURRENT_YEAR $CURRENT_MONTH $CURRENT_DATE"
+  ],
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#1e1e1e",
+    "activityBar.background": "#1e1e1e",
+    "tab.inactiveBackground": "#1e1e1e",
+    "tab.unfocusedHoverBackground": "#17171a",
+    "tab.activeBackground": "#17171a",
+    "sideBar.background": "#1e1e1e",
+    "sideBarSectionHeader.border": "#0A0A0D",
+    "sideBarSectionHeader.background": "#1e1e1e",
+    "menubar.selectionBackground": "#1e1e1e",
+    "statusBar.background": "#1e1e1e",
+    "statusBar.noFolderBackground": "#0A0A0D",
+    "statusBar.debuggingBackground": "#511f1f"
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "off",
+  "editor.fontFamily": "Source Code Pro",
+  "breadcrumbs.enabled": true,
+}
