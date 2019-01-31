@@ -1,6 +1,6 @@
 {
-  "php.executablePath": "D:\\web\\php\\php.exe",
-  "php.validate.executablePath": "D:\\web\\php\\php.exe",
+  "php.executablePath": "C:\\App\\Web\\PHP\\php.exe",
+  "php.validate.executablePath": "C:\\App\\Web\\PHP\\php.exe",
   // editor
   "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 25,
@@ -30,7 +30,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "vendor": true,
-    "package-lock.json": true
+    "package-lock.json": false
   },
   // explorer
   "explorer.openEditors.visible": 0,
@@ -38,7 +38,7 @@
   // code runner
   "code-runner.clearPreviousOutput": true,
   "code-runner.executorMap": {
-    "python": "python3",
+    "python": "python3"
   },
   // prettier
   "editor.formatOnSave": true,
@@ -95,12 +95,8 @@
   // gitlens
   "gitlens.codeLens.enabled": false,
   "gitlens.settings.mode": "advanced",
-  "gitlens.historyExplorer.enabled": true,
   "gitlens.keymap": "chorded",
-  "gitlens.codeLens.scopes": [
-    "containers",
-    "document"
-  ],
+  "gitlens.codeLens.scopes": ["containers", "document"],
   // sync settings & extensions
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
@@ -116,8 +112,8 @@
     "titleBar.activeBackground": "#1e1e1e",
     "activityBar.background": "#1e1e1e",
     "tab.inactiveBackground": "#1e1e1e",
-    "tab.unfocusedHoverBackground": "#17171a",
-    "tab.activeBackground": "#17171a",
+    "tab.unfocusedHoverBackground": "#747476",
+    "tab.activeBackground": "#747476",
     "sideBar.background": "#1e1e1e",
     "sideBarSectionHeader.border": "#0A0A0D",
     "sideBarSectionHeader.background": "#1e1e1e",
@@ -126,9 +122,35 @@
     "statusBar.noFolderBackground": "#0A0A0D",
     "statusBar.debuggingBackground": "#511f1f"
   },
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.env.windows": {
+    "CMDER_ROOT": "C:\\App\\Cmder"
+  },
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "C:\\App\\Cmder\\vendor\\init.bat"
+  ],
   "files.autoSave": "afterDelay",
   "editor.wordWrap": "off",
-  "editor.fontFamily": "Source Code Pro",
+  "editor.fontFamily": "Office Code Pro",
   "breadcrumbs.enabled": true,
+  "workbench.sideBar.location": "left",
+  "debug.node.autoAttach": "on",
+  "go.buildOnSave": true,
+  "go.lintOnSave": true,
+  "go.vetOnSave": true,
+  "go.buildFlags": [],
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  // "go.formatOnSave": false,
+  "go.formatTool": "goreturns",
+  "go.goroot": "C:\\App\\Go", //设置 goroot，正常编译 go 代码。
+  "go.gopath": "C:\\App\\Code\\Go", // 设置 gopath，有利于自动导入库
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "http.proxy": "http://127.0.0.1:1080",
+  "http.proxyStrictSSL": false
 }
